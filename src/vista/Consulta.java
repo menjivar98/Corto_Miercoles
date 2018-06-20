@@ -89,7 +89,18 @@ public class Consulta extends JFrame {
         anio = new JTextField();
         clasificacion = new JComboBox();
         resultados = new JTable();
+        si = new JRadioButton("si",true);
         insertar = new JButton("Insertar");
+        eliminar = new JButton("Eliminar");
+        actualizar = new JButton("Actualizar");
+        buscar = new JButton("Buscar");
+        
+        nombre.setBounds(180,10, ANCHOC, ALTOC);
+        director.setBounds(180,50, ANCHOC, ALTOC);
+        pais.setBounds(180,90, ANCHOC, ALTOC);
+        anio.setBounds(180,120, ANCHOC, ALTOC);
+        clasificacion.setBounds(180,150, ANCHOC, ALTOC);
+        
         
         
     }
