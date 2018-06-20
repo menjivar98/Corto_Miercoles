@@ -100,6 +100,8 @@ public class Consulta extends JFrame {
         pais.setBounds(180,90, ANCHOC, ALTOC);
         anio.setBounds(180,120, ANCHOC, ALTOC);
         clasificacion.setBounds(180,150, ANCHOC, ALTOC);
+        si.setBounds(200,120, 50, ALTOC);
+        
         
         
         
