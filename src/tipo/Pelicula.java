@@ -93,7 +93,7 @@ public class Pelicula {
         this.clasificacion = clasificacion;
     }
 
-    public boolean isExhibicion() {
+    public boolean getExhibicion() {
         return exhibicion;
     }
 
